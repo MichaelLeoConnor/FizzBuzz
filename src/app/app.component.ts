@@ -18,6 +18,9 @@ export class AppComponent implements OnInit {
       } 
       else if (i % 3 == 0) {
         this.fizzBuzzArr.push("Fizz");
+      } 
+      else if (i % 5 == 0) {
+        this.fizzBuzzArr.push("Buzz");
       } else {
         this.fizzBuzzArr.push(i.toString());
       }
